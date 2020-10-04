@@ -3,7 +3,7 @@ This repo is just to put all my solutions in one place for future references.
 
 Only accepted codes are pushed
 
-`Current Count = 25`
+`Current Count = 27`
 
 ## Leetcode Profile
 [https://leetcode.com/lakshaysinghal18/](https://leetcode.com/lakshaysinghal18/)
