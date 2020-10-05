@@ -14,7 +14,7 @@ class Solution:
                 return self.binarySearchLower(nums,low,mid-1,target)
             else:
                 return mid
-        elif nums[mid]>target:
+        elif nums[mid]> :
             return self.binarySearchLower(nums,low,mid-1,target)
         return self.binarySearchLower(nums,mid+1,high,target)
     
