@@ -34,13 +34,13 @@ class Solution:
                 cur.next = ListNode(value)
                 cur = cur.next
         if carry == 1:
-            cur.val = 1
+            cur.val = value
             cur.next = ListNode(carry)
         return result
             
 sol = Solution()
-l1 = ListNode(2,ListNode(4,ListNode(3)))
-l2 = ListNode(2,ListNode(4,ListNode(8)))
+l1 = ListNode(9,ListNode(9,ListNode(9)))
+l2 = ListNode(9,ListNode(9))
 a = sol.addTwoNumbers(l1,l2)
 while(a):
     print(a.val)
